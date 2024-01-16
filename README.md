@@ -16,6 +16,29 @@ The MiniVGG architecture for mask detection is defined as follows:
 - **Fully Connected Layer 1**: 128 neurons with ReLU activation and dropout.
 - **Fully Connected Layer 2**: Output layer with softmax activation (2 classes: With Mask and Without Mask).
 
+## Installation
+
+To set up the required environment for training and testing the MiniVGG model, follow these steps:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/AJustiago/Mask-Detection.git
+   cd Mask-Detection
+
+2. **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+    This command will install all the necessary Python packages specified in the [requirements](https://github.com/AJustiago/Mask-Detection/blob/main/requirements.txt) file.
+
+3. **Download Pre-trained Weights (Optional):
+    If you have pre-trained weights for the MiniVGG model, you can download and place them in the project directory.
+    ```bash
+    # Example command to download pre-trained weights
+    wget https://example.com/pretrained_weights.h5 -O pretrained_weights.h5
+    ```
+    Make sure to update the URL with the correct link to your pre-trained weights.
+
 ## Steps to Create Dataset
 
 1. **Collect Images with Mask and Without Mask**: Gather a diverse set of images featuring individuals wearing masks and others without masks. Ensure variations in lighting conditions, angles, and backgrounds for a robust dataset.
