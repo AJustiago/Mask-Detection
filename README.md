@@ -21,7 +21,7 @@ The MiniVGG architecture for mask detection is defined as follows:
 1. **Collect Images with Mask and Without Mask**: Gather a diverse set of images featuring individuals wearing masks and others without masks. Ensure variations in lighting conditions, angles, and backgrounds for a robust dataset.
 
 ## Training Data
-[a link](https://github.com/AJustiago/Mask-Detection/blob/main/train.py)
+[Train your Dataset Here](https://github.com/AJustiago/Mask-Detection/blob/main/train.py)
 
 ## Plot Training
 ![plot](plot.png)
